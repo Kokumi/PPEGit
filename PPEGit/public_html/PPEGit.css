@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 mai 2015, 13:57:22
+    Author     : sio1
+*/
+
+titre 
+{
+    font-family: Times New Roman , Serif;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+upload
+{
+    font-weight: bold;
+}
+
+recherche 
+{
+    border-width: medium;
+    border: 2px solid;
+    padding: 10px;
+    background: #dddddd;
+    border-bottom-right-radius: 2em;
+
+}
+
+description
+{
+    font-variant : normal;
+    font-family : Arial Black;
+}
+
