@@ -62,5 +62,13 @@ and open the template in the editor.
 	color : red;
 	text-decoration : underline;
 }
-	
 
+.reussi
+{
+	font-variant: normal;
+	font-family : Arial Black;
+	font-size : 19px;
+	font-weight : bold;
+	color : green;
+	text-decoration : underline;
+}
