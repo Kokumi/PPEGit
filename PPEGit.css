@@ -8,31 +8,48 @@ and open the template in the editor.
     Author     : sio1
 */
 
-titre 
+h1.titre
 {
     font-family: Times New Roman , Serif;
-    font-size: 18px;
+    font-size: 25px;
     font-style: oblique;
+	padding-left:8cm;
+	text-decoration : underline;
 }
 
-upload
+p.upload
 {
-    font-weight: bold;
-}
-
-recherche 
-{
+	border : 10%;
     border-width: medium;
     border: 2px solid;
     padding: 10px;
-    background: #dddddd;
+    background: #FFFFE0;
     border-bottom-right-radius: 2em;
+	border-bottom-left-radius : 2em;
+	padding-left : 12cm;
+	font-family: Arial Black;
+	font-size : 12px
+}
+
+p.recherche 
+{
+	border : 10%;
+    border-width: medium;
+    border: 2px solid;
+    padding: 10px;
+    background: #FFFFE0;
+    border-bottom-right-radius: 2em;
+	border-bottom-left-radius:2em;
+	padding-left : 12cm;
+	font-family: Arial Black;
+	font-size : 12px;
 
 }
 
-description
+p.description
 {
     font-variant : normal;
     font-family : Arial Black;
+	font-size : 14px;
 }
 
