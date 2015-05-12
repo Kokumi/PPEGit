@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : sio1
 */
 
-h1.titre
+.titre
 {
     font-family: Times New Roman , Serif;
     font-size: 25px;
@@ -17,7 +17,7 @@ h1.titre
 	text-decoration : underline;
 }
 
-p.upload
+.upload
 {
 	border : 10%;
     border-width: medium;
@@ -31,7 +31,7 @@ p.upload
 	font-size : 12px
 }
 
-p.recherche 
+.recherche 
 {
 	border : 10%;
     border-width: medium;
@@ -46,10 +46,21 @@ p.recherche
 
 }
 
-p.description
+.description
 {
     font-variant : normal;
     font-family : Arial Black;
 	font-size : 14px;
 }
+
+.warning
+{
+	font-variant: normal;
+	font-family : Arial Black;
+	font-size : 19px;
+	font-weight : bold;
+	color : red;
+	text-decoration : underline;
+}
+	
 
