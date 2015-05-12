@@ -8,6 +8,14 @@ and open the template in the editor.
     Author     : sio1
 */
 
+body
+{
+	font-family: Arial Black;
+	position: static;
+    left: 100px;
+    
+}
+
 .titre
 {
     font-family: Times New Roman , Serif;
@@ -48,14 +56,13 @@ and open the template in the editor.
 
 .description
 {
-    font-variant : normal;
-    font-family : Arial Black;
+    
 	font-size : 14px;
 }
 
 .warning
 {
-	font-variant: normal;
+	
 	font-family : Arial Black;
 	font-size : 19px;
 	font-weight : bold;
@@ -65,10 +72,32 @@ and open the template in the editor.
 
 .reussi
 {
-	font-variant: normal;
+	
 	font-family : Arial Black;
 	font-size : 19px;
 	font-weight : bold;
 	color : green;
 	text-decoration : underline;
+}
+
+.retour
+{
+	
+	font-family : Arial Black;
+	font-size : 12px;
+	
+	
+}
+
+.barreRecherche
+{
+	border : 10%;
+    border-width: medium;
+    border: 2px solid;
+    padding: 10px;
+    background: #FFFFE0;
+    border-bottom-right-radius: 2em;
+	border-bottom-left-radius:2em;
+	font-family: Arial Black;
+	font-size : 12px
 }
