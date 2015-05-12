@@ -27,18 +27,18 @@
             if(in_array($ext, $extAutorise))
             {
 		print('<br> le fichier final sera'.$type);
-		if(move_uploaded_file($nomComplet, destination))
+		if(move_uploaded_file($nomComplet, destination)) //à completer
 		{
-			print("<p class=&quo;reussi&quo;<br>c'est envoyer!");
+			print("<p class=\"reussi\"<br>c'est envoyer!");
 		}
 		else
 		{
-			print("<br>Impossible d'envoyer");
+			print("<p class=\"warning\"><br>Impossible d'envoyer</p>");
 		}
             }
             else
             {
-		echo"<p class=&quot;erreur&quo;><br>le fichier n'est pas en pdf</p>";
+		echo"<p class=\"warning\"><br>le fichier n'est pas en pdf</p>";
             }
         }
         else
